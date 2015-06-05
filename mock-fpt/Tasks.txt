@@ -1,0 +1,10 @@
+5-6/6:
+	- T.A: Sequence Diagrams.
+	- Quoi: Screen flow diagrams (Users)
+	- Trang: Q&A (6-15).
+6/6: 
+	- T.A: Sequence Diagrams.
+	- Quoi: Sequence Diagrams.
+	- Trang: Class Diagrams (User)
+	- Loc: Class Diagrams (E-Guide)
+7/6: 
