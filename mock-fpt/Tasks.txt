@@ -1,1 +1,25 @@
 7/6: 
+	- Quoi: Complete Screen Flow.
+	- T.A: Sequence Diagrams 1,2,3,4,5,6.
+	- Trang: Sequence Diagrams 7,8,9,10
+	- T.Loc: ....
+8/6: 
+	- Quoi: 
+	- T.A: 
+	- Trang: 
+	- T.Loc: 
+9/6: 
+	- Quoi: 
+	- T.A: 
+	- Trang: 
+	- T.Loc: 
+10/6: 
+	- Quoi: 
+	- T.A: 
+	- Trang: 
+	- T.Loc: 
+11/6: 
+	- Quoi: 
+	- T.A: 
+	- Trang: 
+	- T.Loc: 
