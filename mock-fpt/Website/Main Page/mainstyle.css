@@ -1,0 +1,260 @@
+#containner {
+    margin: 0px auto;
+    width: 1100px;
+}
+header {
+    bottom: 1033px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 254px;
+}
+
+#top-group {
+    bottom: 1076px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 211px;
+    
+    display: block;
+}
+
+#main-menu {
+    bottom: 1033px;
+    top: 210px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 44px;
+    
+    background: url(images/main-menu.png);
+}
+
+#body-left {
+    bottom: 364px;
+    top: 253px;
+    left: 0px;
+    right: 886px;
+    
+    width: 214px;
+    height: 670px;
+    
+    display: table-cell;
+    
+    background: url(images/body-left.png);
+}
+
+#body-main {
+    bottom: 168px;
+    top: 253px;
+    left: 212px;
+    right: 211px;
+    
+    width: 677px;
+    height: 866px;
+    
+    display: table-cell;
+    
+    background: url(images/body-main.png);
+}
+
+section {
+    bottom: 144px;
+    top: 253px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 890px;
+    
+    display: table;
+}
+
+#body-right {
+    bottom: 144px;
+    top: 253px;
+    left: 887px;
+    right: 0px;
+    
+    width: 213px;
+    height: 890px;
+    
+    display: table-cell;
+    
+    background: url(images/body-right.png);
+}
+
+footer {
+    top: 1143px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 144px;
+    
+    display: table;
+
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.35);
+    
+    background-color: #26545c;
+}
+
+
+
+.f-cell-left {
+    display: table-cell;
+    
+    color: #ffffff;
+    font: 300 20px Roboto;
+    
+    top: 1173px;
+    bottom: 97px;
+    left: 17px;
+    right: 698px;
+    
+    width: 385px;
+    height: 17px;
+    
+    text-align: left;
+    padding-left: 20px;
+}
+
+.f-cell-right {
+    display: table-cell;
+    
+    color: #ffffff;
+    font: 300 20px Roboto;
+    
+    top: 1173px;
+    bottom: 75px;
+    left: 809px;
+    right: 15px;
+    
+    width: 276px;
+    height: 39px;
+    
+    text-align: right;
+    padding-right: 50px;
+}
+
+.mygvm {
+    top: 1215px;
+    bottom: 34px;
+    left: 17px;
+    right: 874px;
+    
+    width: 209px;
+    height: 39px;
+    
+    background: url(images/Rectangle-7.png);
+    
+    color: #c2185b;
+    font: 900 25px Roboto;
+    
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+    top: 57px;
+    bottom: 1186px;
+    left: 24px;
+    right: 236px;
+    
+    width: 840px;
+    height: 44px;
+    
+    color: #000000;
+    font: 100 29.1px Roboto;
+    
+    transform: scale(1.749,2.016);
+    
+    text-align: center;
+    position: relative;
+}
+
+.banner {
+    top: 0px;
+    bottom: 1118px;
+    left: 0px;
+    right: 213px;
+    
+    width: 887px;
+    height: 169px;
+        
+    background-color: #b9edb6;
+    
+    display: table-cell;
+}
+
+.menu-1 {
+    color: #ffffff;
+    font: 300 21.25px Roboto;
+    
+    top: 168px;
+    bottom: 1077px;
+    left: 0px;
+    right: 500px;
+    
+    width: 600px;
+    height: 42px;
+    
+    background-color: #1b5e20;
+    
+    display: table-cell;
+}
+
+.menu-bar {
+    top: 168px;
+    bottom: 1076px;
+    left: 0px;
+    right: 0px;
+    
+    width: 1100px;
+    height: 43px;
+    
+    display: table;
+}
+
+.search {
+    top: 168px;
+    bottom: 1076px;
+    left: 600px;
+    right: 0px;
+    
+    width: 500px;
+    height: 43px;
+    
+    color: #1b5e20;
+    font: 700 21.25px Roboto;
+    
+    background-color: white;
+    
+    display: table-cell;
+}
+
+.banner-warpper {
+    display: table;
+}
+
+.right-banner {
+    top: 0px;
+    bottom: 1119px;
+    left: 887px;
+    right: 0px;
+    
+    width: 213px;
+    height: 168px;
+    display: table-cell;
+}
