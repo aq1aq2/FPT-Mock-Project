@@ -1,86 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
-	<title>Set Portal Home Page</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css" />
+    <script src="js/snap.svg-min.js"></script>    
+    
+    <title>Set Portal Home Page</title>
 </head>
 <body>
-    <div id="containner">
-        <header>
-            <div id="top-group">
-                <div class="banner-warpper">
-                    <div class="banner">
-                        <p id="title">ROYAL MALAISIAN CUSTOM</p>
+    <div class="container-fluid" id="containner">
+        <div class="row" id="main-menu">
+            <div class="col-sm-9" id="banner">
+                <p id="title">ROYAL MALAISIAN CUSTOMS</p>
+            </div>
+            <div class="col-sm-3" id="right-banner">
+                <form class="login" name="login-menu">
+                    <div class="form-group">
+                        <label for="sel1"><p style="font-size: 20px; font-family: Roboto Light;">USER TYPE</p></label>
+                        <select class="form-control" id="sel1">
+                            <option value="1">KDRM Single Sign On</option>
+                            <option value="2">MyGSeT Portal</option>                                
+                        </select>
                     </div>
-                    
-                    <div class="right-banner">
-                        <form name="login-menu">
-                            <button>Login</button>
-                        </form>
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 5px; margin-top: -5px">LOGIN</button>
+                </form>
+            </div>
+        </div>
+        <div class="row" id="main-menu">
+            <div class="col-sm-6" style="background-color: #1b5e20;">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" style="color: #ffffff;font: 300 18px Roboto;">Home</a></li>
+                    <li><a href="#" style="color: #ffffff;font: 300 18px Roboto;">About Us</a></li>
+                    <li><a href="#" style="color: #ffffff;font: 300 18px Roboto;">Contact Us</a></li>
+                    <li><a href="#" style="color: #ffffff;font: 300 18px Roboto;">Online Help</a></li>
+                    <li><a href="#" style="color: #ffffff;font: 300 18px Roboto;">Site Map</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-6" style="background-color:  #1b5e20; height: 52px; padding: 10px">
+                <div class="input-group" style="font-family: Roboto; color:  #1b5e20">
+                    <select class="form-control" id="sel1" style="width: 30%;">
+                        <option value="1">All GST</option>
+                        <option value="2">Other GST</option>                                
+                    </select>
+                    <input class="form-control" type="text" placeholder="Search for..." style="width: 70%">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="main-menu">
+            <div class="col-sm-3" id="times">
+                <span class="day">Sunday, May 31, 2015</span>
+                <br/>
+                <span class="time">11:48 AM</span>
+            </div>
+            <div class="col-sm-9" id="menu">
+                <ul class="nav nav-tabs" >
+                    <li class="active"><a data-toggle="tab" href="#core-app" class="core-app" style="border-radius: 0px; margin: 0px;">Core Application</a></li>
+                    <li><a data-toggle="tab" href="#call-center" class="call-center" style="border-radius: 0px; margin: 0px;">Call Center Knowlegde Base</a></li>
+                    <li><a data-toggle="tab" href="#gst-info" class="gst-info" style="border-radius: 0px; margin: 0px;">GST Info</a></li>
+                    <li><a data-toggle="tab" href="#e-guide" class="e-guide" style="border-radius: 0px; margin: 0px;">e-Guide</a></li>
+                    <li><a data-toggle="tab" href="#faq" class="faq" style="border-radius: 0px; margin: 0px;">FAQ</a></li>
+                </ul>                
+            </div>
+        </div>
+        <div class="row" id="main-menu" id="mybody">
+            <div class="col-sm-3" id="body-left">
+                <div class="online-sv">
+                    <table border="thin" width="100%">
+                        <tr>
+                            <th class="th-title-icn"><i class="fa fa-cog"></i></th>
+                            <th class="th-title">ONLINE SERVICES</th>
+                        </tr>
+                        <tr>
+                            <td class="td-icn"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title">
+                                <a href="#" style="color: white">e - Registration</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn-odd"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title-odd">
+                                <a href="#" style="color: white">Online enquiry</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title">
+                                <a href="#" style="color: white">e - Aduan</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn-odd"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title-odd">
+                                <a href="#" style="color: white">Forum</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="gst-form-tml">
+                    <table border="thin" width="100%">
+                        <tr>
+                            <th class="th-title-icn"><i class="fa fa-cog"></i></th>
+                            <th class="th-title">GST FORM / TEMPLATE</th>
+                        </tr>
+                        <tr>
+                            <td class="td-icn" style="background-color: #01579b"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title" style="background-color: #01579b">
+                                <a href="#" style="color: white">GST Forms</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn-odd" style="background-color: #29b6f6"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title-odd" style="background-color: #29b6f6">
+                                <a href="#" style="color: white">GST Templates</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="e-news">
+                    <table border="thin" width="100%">
+                        <tr>
+                            <th class="th-title-icn"><i class="fa fa-cog"></i></th>
+                            <th class="th-title">e - NEWS</th>
+                        </tr>
+                        <tr>
+                            <td class="td-icn" style="background-color: #d6eee5"></td>
+                            <td class="td-content">
+                                <p class="my-content-title">Sunday, 31 May 2015</p>
+                                <p class="my-content">
+                                    Perasmian Serminar Syarat-Syarat Templasal Pertubuhan Kastam Sedunia (WCO)
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn" style="background-color: #d6eee5"></td>
+                            <td class="td-content">
+                                <p class="my-content-title">Monday, 1 Jun 2015</p>
+                                <p class="my-content">
+                                    Sekitar Ops Cukai Dalaman (CD)
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn" style="background-color: #d6eee5"></td>
+                            <td class="td-content">
+                                <a href="#">Read more...</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn" style="background-color: #ff9800"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title" style="background-color: #ff9800">
+                                <a href="#" style="color: white">Subscribe e-News</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-icn-odd" style="background-color: #865206"><i class="fa fa-check-circle"></i></td>
+                            <td class="td-title-odd" style="background-color: #865206">
+                                <a href="#" style="color: white">Unsubscribe e-News</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-6" id="body-main">
+                <div class="tab-content">
+                    <div id="core-app" class="tab-pane fade in active">
+                        <h3>Core Application</h3>
+                        <p>Content here...</p>
                     </div>
-                </div>               
+                    <div id="call-center" class="tab-pane fade in active">
+                        <h3>Call Center Knowlegde Base</h3>
+                        <p>Content here...</p>
+                    </div>
+                    <div id="gst-info" class="tab-pane fade in active">
+                        <h3>GST Info</h3>
+                        <p>Content here...</p>
+                    </div>
+                    <div id="e-guide" class="tab-pane fade in active">
+                        <h3>e-Guide</h3>
+                        <p>Content here...</p>
+                    </div>
+                    <div id="faq" class="tab-pane fade in active">
+                        <h3>FAQ</h3>
+                        <p>Content here...</p>
+                    </div>
+                </div>
                 
-                <div class="menu-bar">
-                    <div class="menu-1">
-                        <a href="#">Home</a>	
-                        <a href="#">About Us</a>	
-                        <a href="#">Contact Us</a>	
-                        <a href="#">Online Help</a>	
-                        <a href="#">Site Map</a>
-                    </div>
-                    
-                    <div class="search">
-                        <form name="search" action="POST">
-                            <label>Search 
-                                <select name="seach-chooser">
-                                    <option value="option-1">Option 1</option>
-                                    <option value="option-2">Option 2</option>
-                                    <option value="option-3">Option 3</option>
-                                    <option value="option-4">Option 4</option>
-                                    <option value="option-5">Option 5</option>
-                                    <option value="option-6">Option 6</option>
-                                </select>
-                                <input type="text" name="search" width="212px"/>
-                                <input type="submit" value="Go"/>
-                            </label>
-                        </form>
-                    </div>
-                </div>    
             </div>
-            
-            <div id="main-menu">
-                
+            <div class="col-sm-3" id="body-right">
+                BODY-RIGHT
             </div>
-        </header>
-        
-        <section>
-            <div id="body-left">
-            
-            </div>
-            
-            <div id="body-main">
-            
-            </div>
-            
-            <div id="body-right">
-            
-            </div>
-        </section>
-        
-        <footer>
-            <div class="f-cell-left">
-                <p><a href="#">About this site</a> | <a  href="#">Terns and Conditions</a> | <a  href="#">Privacy Policy</a></p>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-sm-6" id="f-cell-left">
+                <p><a href="#" style="color: white;">About this site</a> | 
+                    <a  href="#" style="color: white;">Terns and Conditions</a> | 
+                    <a  href="#" style="color: white;">Privacy Policy</a>
+                </p>
                 <div class="mygvm">    
                     <img src="images/myGoverment.png" alt="myGoverment" width="148" height="32"/>
                     <img src="images/Layer-1.png" alt="logo" width="43" height="39"/>
                 </div>
             </div>
-            <div class="f-cell-right">
+            <div class="col-sm-6" id="f-cell-right">
                 <p>Visit KDRM Official Website</p>
-                <p>Copyright (c) 2015 Le Tuan Anh GST</p>
+                <p>Copyright (c) 2015</p> 
+                <p style="font-size: 20px; font-family: Arial;  ">Le Tuan Anh | Nguyen Thi Thuy Trang <br> Vo Phu Quoi | Tran Thi Tieu Loc</p>
             </div>
-        </footer>
+        </div>
     </div>
 </body>
 </html>
